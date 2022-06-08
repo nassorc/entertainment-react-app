@@ -4,6 +4,8 @@ import DisplayPopularShows from "../components/shows/DisplayPopularShows";
 import { MainColumn } from "../components/styles";
 
 function Homepage() {
+    console.log('homepage')
+    console.log(secrets.REACT_APP_API_KEY)
     return (
         <>
         <HomepageSearchContainer />
