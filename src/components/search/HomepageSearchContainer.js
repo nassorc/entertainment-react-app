@@ -62,7 +62,7 @@ function HomepageSearchContainer () {
                         onChange={(e) => setMovieInput(e.target.value)}
                     />
 
-                    <button style={styles.SearchIcon} onClick={handleSubmit}><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABaUlEQVRIS9WV4VECQQyFoQPtADvQCjwqEDs4OtAKwArACjwqUCuQDsAKpAMpgffNJM4iu7n7cYxjZjJ3zF7y3kuyYTg4sw3PnH8QAVwLvJLfykfyC/lW/ilv5Lsu5EoAtYIXlrSU51EHyzaQHMCrgiYW+Kbnytju9UTVnRwC2Fo+jkB+AzwYc5JN5QDkDKAPUxgqSQFGCthY0H2Q3AErA+H3lak8IZMCOPvG2EfK/exFL7X8ST7PBaQAXvsu7D0XvSKOUhIXKvjSKWUqys3EM7rfcnp2+ecAXk+mhz50sUofMU1cwJs2BTRpFtUzk8BjIASxsAfUnz5gXJ51iwTY02D/HhUhAIfpRWMqSiAkp6SQYl1w2bKWWxXUlAQYwe9yZ5euCiYI4wzFTNKJlZadKykRI1ljRAAtgrStay4S65ok2M6SPdsTFSgugvTxhxOC9AGAshTkaLv2BeAgtV4YjB/rEyA7EP8f4ABDX04ZQpGOLAAAAABJRU5ErkJggg=="/></button>
+                    <button style={styles.SearchIcon} onClick={(e) => handleSubmit(e)}><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABaUlEQVRIS9WV4VECQQyFoQPtADvQCjwqEDs4OtAKwArACjwqUCuQDsAKpAMpgffNJM4iu7n7cYxjZjJ3zF7y3kuyYTg4sw3PnH8QAVwLvJLfykfyC/lW/ilv5Lsu5EoAtYIXlrSU51EHyzaQHMCrgiYW+Kbnytju9UTVnRwC2Fo+jkB+AzwYc5JN5QDkDKAPUxgqSQFGCthY0H2Q3AErA+H3lak8IZMCOPvG2EfK/exFL7X8ST7PBaQAXvsu7D0XvSKOUhIXKvjSKWUqys3EM7rfcnp2+ecAXk+mhz50sUofMU1cwJs2BTRpFtUzk8BjIASxsAfUnz5gXJ51iwTY02D/HhUhAIfpRWMqSiAkp6SQYl1w2bKWWxXUlAQYwe9yZ5euCiYI4wzFTNKJlZadKykRI1ljRAAtgrStay4S65ok2M6SPdsTFSgugvTxhxOC9AGAshTkaLv2BeAgtV4YjB/rEyA7EP8f4ABDX04ZQpGOLAAAAABJRU5ErkJggg=="/></button>
                 </form>
             </div>
         </SearchContainer>

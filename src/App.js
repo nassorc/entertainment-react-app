@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/register' element={<RegisterPage />} />
         <Route path='/login' element={<SignInPage/>} />
-        <Route path="/" element={<Homepage />} />
+        <Route path="/entertainment-react-app/" element={<Homepage />} />
         <Route path="/review/:id" element={<ReviewDetials />} />
         <Route path="/media/:id" element={<MediaDetails />} />
         <Route path="/results/:searchQuery" element={<SearchResults />} />
