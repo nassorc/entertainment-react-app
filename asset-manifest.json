@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/entertainment-react-app/static/css/main.f60ed6c1.css",
-    "main.js": "/entertainment-react-app/static/js/main.e01c214a.js",
+    "main.js": "/entertainment-react-app/static/js/main.e3b8a6fa.js",
     "static/media/landing.jpg": "/entertainment-react-app/static/media/landing.6151994ab3111153e1a2.jpg",
     "index.html": "/entertainment-react-app/index.html",
     "main.f60ed6c1.css.map": "/entertainment-react-app/static/css/main.f60ed6c1.css.map",
-    "main.e01c214a.js.map": "/entertainment-react-app/static/js/main.e01c214a.js.map"
+    "main.e3b8a6fa.js.map": "/entertainment-react-app/static/js/main.e3b8a6fa.js.map"
   },
   "entrypoints": [
     "static/css/main.f60ed6c1.css",
-    "static/js/main.e01c214a.js"
+    "static/js/main.e3b8a6fa.js"
   ]
 }
