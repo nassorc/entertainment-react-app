@@ -1,7 +1,6 @@
 import { useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { WidgetContainer, WidgetContainerHorizontal, Title, WidgetHeaderTitle, WidgetHeader, ScrollLeftButton, ScrollRightButton, ShowcaseItem, ShowcaseImageContainer, Image  } from "../styles";
-import { getTrendingMovies } from '../../api'
 function DisplayShows() {
     const [backendTrendingMovies, setBackendTrendingMovies] = useState([])
     useEffect(() => {

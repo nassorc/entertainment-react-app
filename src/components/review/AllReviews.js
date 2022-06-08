@@ -1,7 +1,6 @@
 import ReviewList from './ReviewList'
 import { WidgetContainerVertical, WidgetHeader, WidgetHeaderTitle } from '../styles'
 import { useState, useEffect } from 'react'
-import { getReviews as getReviewsApi } from '../../api'
 import {v4 as uuidv4} from 'uuid'
 
 function AllReviews() {

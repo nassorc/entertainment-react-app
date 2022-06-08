@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import backgroundImg from '../../images/homepage-search-bg.jpg'
 import { Image, SearchContainer } from '../styles';
 import 'boxicons'
 const styles = {
